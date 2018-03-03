@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(https://eecs.berkeley.edu/sites/all/themes/eecs/kalastatic/build/vendor/fontface-source-sans-pro/fonts/WOFF/OTF/SourceSansPro-Regular.otf.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(https://eecs.berkeley.edu/sites/all/themes/eecs/kalastatic/build/vendor/fontface-source-sans-pro/fonts/WOFF/OTF/SourceSansPro-It.otf.woff) format("woff");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(https://eecs.berkeley.edu/sites/all/themes/eecs/kalastatic/build/vendor/fontface-source-sans-pro/fonts/WOFF/OTF/SourceSansPro-Bold.otf.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(https://eecs.berkeley.edu/sites/all/themes/eecs/kalastatic/build/vendor/fontface-source-sans-pro/fonts/WOFF/OTF/SourceSansPro-Semibold.otf.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(https://eecs.berkeley.edu/sites/all/themes/eecs/kalastatic/build/vendor/fontface-source-sans-pro/fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff) format("woff");
+    font-weight: 700;
+    font-style: italic;
+}
