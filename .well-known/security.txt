@@ -1,0 +1,4 @@
+Contact: https://eecs.berkeley.edu/contact
+Encryption: https://blog.cryptographyengineering.com/2014/08/13/whats-matter-with-pgp/
+Acknowledgments: https://security.cs.berkeley.edu/humans.txt
+Hiring: https://eecs.berkeley.edu/academics/graduate/research-programs/admissions

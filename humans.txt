@@ -1,0 +1,1 @@
+This version of the Security Group website was lovingly hand-coded by nmalkin@ based on a site by pratyushmishra@ and a design cravenly (but gratefully) stolen from the Crypto Group.
