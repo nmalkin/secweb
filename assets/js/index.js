@@ -37,4 +37,5 @@ function randomizeAlumni() {
 
 window.onload = function() {
   randomizeAlumni();
+  shuffleChildren($("#affiliates"));
 };
