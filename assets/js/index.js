@@ -2,18 +2,20 @@
 
 var ALUMNI_TO_SHOW = 17;
 
-function randomizeAlumni() {
-  // Shuffle list
-  var alumniContainer = $("#alumni");
-  var alumniMembers = alumniContainer.children();
-  while (alumniMembers.length > 0) {
-    alumniContainer.append(
-      alumniMembers.splice(
-        Math.floor(Math.random() * alumniMembers.length),
-        1
-      )[0]
+function shuffleChildren(element) {
+  var children = element.children();
+  while (children.length > 0) {
+    element.append(
+      children.splice(Math.floor(Math.random() * children.length), 1)[0]
     );
   }
+}
+
+function randomizeAlumni() {
+  var alumniContainer = $("#alumni");
+
+  // Shuffle list
+  shuffleChildren(alumniContainer);
 
   // Hide the later elements
   alumniContainer
@@ -32,6 +34,7 @@ function randomizeAlumni() {
   });
   alumniContainer.append(showAllButton);
 }
+
 window.onload = function() {
   randomizeAlumni();
 };
