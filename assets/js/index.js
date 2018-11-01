@@ -1,6 +1,6 @@
 "use strict";
 
-var ALUMNI_TO_SHOW = 21;
+var ALUMNI_TO_SHOW = 27;
 
 function shuffleChildren(element) {
   var children = element.children();
