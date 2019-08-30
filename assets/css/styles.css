@@ -42,3 +42,7 @@ a {
   font-style: italic;
   font-size: 0.8em;
 }
+
+.current {
+  background: #fdb515;
+}
